@@ -67,8 +67,9 @@
             <div class="container topbar bg-primary d-none d-lg-block">
                 <div class="d-flex justify-content-between">
                     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-                    <a href="https://api.whatsapp.com/send?phone=9191148920&text=Hola buen dia, quisiera saber informacion" class="btn btn-primary border-3" target="_blank">
-                    {{-- <i class="fa fa-whatsapp my-float"></i> --}}
+                    <a href="https://api.whatsapp.com/send?phone=9191148920&text=Hola buen dia, quisiera saber informacion"
+                    class="btn btn-primary border-3" target="_blank">
+
                     </a>
                 </div>
             </div>
@@ -94,7 +95,7 @@
                         </div>
                         <div class="d-flex m-3 me-0">
 
-                            <a href="login.html" class="my-auto">
+                            <a href="{{ route('login') }}" class="my-auto">
                                 <i class="fas fa-user fa-2x"></i>
                             </a>
                         </div>

@@ -69,14 +69,18 @@
                 <div class="d-flex justify-content-between">
                     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
                     <a href="https://api.whatsapp.com/send?phone=9191148920&text=Hola buen dia, quisiera saber informacion" class="btn btn-primary border-3" target="_blank">
-                    <i class="fa fa-whatsapp my-float"></i>
                     </a>
                 </div>
             </div>
             <div class="container px-0">
                 <nav class="navbar navbar-light bg-white navbar-expand-xl">
-                    <a href="index.html" class="navbar-brand"><h1 class="text-primary display-6">Calorie Tracked</h1></a>
-                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-primary display-6">
+                            Calorie Tracked
+                        </h1></a>
+                    <button class="navbar-toggler py-2 px-3"
+                    type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
                         <span class="fa fa-bars text-primary"></span>
                     </button>
                     <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
@@ -95,7 +99,7 @@
                         </div>
                         <div class="d-flex m-3 me-0">
 
-                            <a href="login.html" class="my-auto">
+                            <a href="{{ route('login') }}" class="my-auto">
                                 <i class="fas fa-user fa-2x"></i>
                             </a>
                         </div>
@@ -103,10 +107,7 @@
                 </nav>
             </div>
         </div>
-<br>
-<br>
-<br>
-<br>
+<br><br><br><br>
 
         <div class="container-fluid contact py-5">
             <div class="container py-5">

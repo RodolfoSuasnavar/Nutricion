@@ -75,15 +75,19 @@
             </div>
             <div class="container px-0">
                 <nav class="navbar navbar-light bg-white navbar-expand-xl">
-                    <a href="{{ route('welcome') }}" class="navbar-brand"><h1 class="text-primary display-6">Calorie Tracked</h1></a>
-                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                        <span class="fa fa-bars text-primary"></span>
+                    <a href="{{ route('welcome') }}" class="navbar-brand">
+                        <h1 class="text-primary display-6">Calorie Tracked</h1>
+                    </a>
+                    <button class="navbar-toggler py-2 px-3"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary">
+
+                        </span>
                     </button>
                     <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
                         <div class="navbar-nav mx-auto">
                             <a href="{{ route('welcome') }}" class="nav-item nav-link active">Inicio
                             <a href="{{ route('ejercicio') }}" class="nav-item nav-link active">Ejercicio</a>
-                            {{-- <a href="{{ route('verificador') }}" class="nav-item nav-link active">Verificar alimentos</a> --}}
 
                             </a>
 
