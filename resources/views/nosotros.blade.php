@@ -67,7 +67,7 @@
             <div class="container topbar bg-primary d-none d-lg-block">
                 <div class="d-flex justify-content-between">
                     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-                    <a href="https://api.whatsapp.com/send?phone=9191148920&text=Hola buen dia, quisiera saber informacion"
+                    <a href="https://api.whatsapp.com/send?phone=9191148920&text=Hola quisiera tener una cita para ver lo de mi dieta de este mes."
                     class="btn btn-primary border-3" target="_blank">
 
                     </a>
